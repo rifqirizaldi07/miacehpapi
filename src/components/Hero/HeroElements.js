@@ -59,3 +59,8 @@ export const HeroBtn = styled.button`
     color: #000;
   }
 `;
+
+export const HeroBtnLink = styled.a`
+  color: #fff;
+  font-size: 24px;
+`;

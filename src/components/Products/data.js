@@ -9,19 +9,19 @@ export const productData = [
   {
     img: product1,
     alt: "Mie Aceh Telur",
-    name: "Mie Aceh Telur",
+    name: "Mie Aceh + Telur",
     price: "Rp 15.000",
   },
   {
     img: product2,
     alt: "Mie Aceh Udang",
-    name: "Mie Aceh Udang",
+    name: "Mie Aceh + Udang",
     price: "Rp 20.000",
   },
   {
     img: product3,
     alt: "Mie Aceh Daging",
-    name: "Mie Aceh Daging",
+    name: "Mie Aceh + Daging",
     price: "Rp 20.000",
   },
 ];

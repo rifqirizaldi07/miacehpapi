@@ -23,7 +23,7 @@ const Sidebar = ({ isOpen, toggle }) => {
         <SidebarLink >Mie Aceh + Cumi Cumi</SidebarLink>
       </SidebarMenu>
       <SideBtnWrap>
-        <SidebarRoute to='/'>Order Now</SidebarRoute>
+        <SidebarRoute href='https://gofood.link/u/gxB1b'>Order Now</SidebarRoute>
       </SideBtnWrap>
     </SidebarContainer>
   );

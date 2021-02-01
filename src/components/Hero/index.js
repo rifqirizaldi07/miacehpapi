@@ -8,6 +8,7 @@ import {
   HeroH1,
   HeroItems,
   HeroP,
+  HeroBtnLink,
 } from "./HeroElements";
 
 function Hero() {
@@ -15,16 +16,20 @@ function Hero() {
 
   const toggle = () => {
     setIsOpen(!isOpen);
-  }
+  };
   return (
     <HeroContainer>
-      <Navbar toggle={toggle}/>
+      <Navbar toggle={toggle} />
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <HeroContent>
         <HeroItems>
           <HeroH1>Mie Aceh Pante Pirak</HeroH1>
           <HeroP>Regional Food</HeroP>
-          <HeroBtn>Place Order</HeroBtn>
+          <HeroBtn>
+            <HeroBtnLink href="https://goo.gl/maps/4TCwQuMRcmw2bVio7">
+              See Location
+            </HeroBtnLink>
+          </HeroBtn>
         </HeroItems>
       </HeroContent>
     </HeroContainer>
