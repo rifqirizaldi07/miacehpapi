@@ -54,7 +54,7 @@ export const ProductDesc = styled.p`
 
 export const ProductPrice = styled.p`
   margin-bottom: 1rem;
-  font-size: 2rem;
+  font-size: 1.4rem;
 `;
 
 export const ProductButton = styled.button`

@@ -5,6 +5,8 @@ import {
   CloseIcon,
   SidebarMenu,
   SidebarLink,
+  SideBtnWrap,
+  SidebarRoute
 } from "./SideBarElements";
 
 const Sidebar = ({ isOpen, toggle }) => {
@@ -14,10 +16,15 @@ const Sidebar = ({ isOpen, toggle }) => {
         <CloseIcon />
       </Icon>
       <SidebarMenu>
-        <SidebarLink to="/">Mie Aceh</SidebarLink>
-        <SidebarLink to="/">Drinks</SidebarLink>
-        <SidebarLink to="/">Full Menu</SidebarLink>
+        <SidebarLink >Mie Aceh + Ayam</SidebarLink>
+        <SidebarLink >Mie Aceh + Daging</SidebarLink>
+        <SidebarLink >Mie Aceh + Udang</SidebarLink>
+        <SidebarLink >Mie Aceh + Ikan</SidebarLink>
+        <SidebarLink >Mie Aceh + Cumi Cumi</SidebarLink>
       </SidebarMenu>
+      <SideBtnWrap>
+        <SidebarRoute to='/'>Order Now</SidebarRoute>
+      </SideBtnWrap>
     </SidebarContainer>
   );
 };
