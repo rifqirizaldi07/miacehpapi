@@ -11,18 +11,21 @@ export const productData = [
     alt: "Mie Aceh Telur",
     name: "Mie Aceh + Telur",
     price: "Rp 15.000",
+    button: 'Order'
   },
   {
     img: product2,
     alt: "Mie Aceh Udang",
     name: "Mie Aceh + Udang",
     price: "Rp 20.000",
+    button: 'Order'
   },
   {
     img: product3,
     alt: "Mie Aceh Daging",
     name: "Mie Aceh + Daging",
     price: "Rp 20.000",
+    button: 'Order'
   },
 ];
 
@@ -32,17 +35,20 @@ export const productDataTwo = [
     alt: "Kopi Aceh",
     name: "Kopi Aceh",
     price: "Rp 7.000",
+    button: 'Order'
   },
   {
     img: sweet2,
     alt: "Capucino",
     name: "Capucino",
     price: "Rp 6.000",
+    button: 'Order'
   },
   {
     img: sweet3,
     alt: "Teh Tarik",
     name: "Teh Tarik",
     price: "Rp 6.000",
+    button: 'Order'
   },
 ];

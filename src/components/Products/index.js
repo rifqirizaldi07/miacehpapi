@@ -8,6 +8,9 @@ import {
   ProductsHeading,
   ProductTitle,
   ProductWrapper,
+  ProductButton,
+  ProductButtonLink,
+  ProductImg1,
 } from "./ProductsElement";
 
 function Products({ heading, data }) {
@@ -18,10 +21,17 @@ function Products({ heading, data }) {
         {data.map((product, index) => {
           return (
             <ProductCard key={index}>
-              <ProductImg src={product.img} alt={product.alt} />
+              <ProductImg>
+                <ProductImg1 src={product.img} alt={product.alt} />{" "}
+              </ProductImg>
               <ProductInfo>
                 <ProductTitle>{product.name}</ProductTitle>
                 <ProductPrice>{product.price}</ProductPrice>
+                <ProductButton>
+                  <ProductButtonLink href="https://gofood.link/u/gxB1b">
+                    {product.button}
+                  </ProductButtonLink>
+                </ProductButton>
               </ProductInfo>
             </ProductCard>
           );
