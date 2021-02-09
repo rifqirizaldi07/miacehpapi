@@ -72,13 +72,15 @@ export const ProductPrice = styled.p`
   font-size: 1.4rem;
 `;
 
-export const ProductButton = styled.button`
+export const ProductButton = styled.a`
   font-size: 1.2rem;
   padding: 1rem 4rem;
   border-radius: 3px;
   border: none;
-  background: #f50029;
+  background: #e31837;
   color: #fff;
+  text-decoration: none;
+  cursor: pointer;
   transition: 0.2 ease-out;
   &:hover {
     background: #ed8515;
@@ -88,8 +90,3 @@ export const ProductButton = styled.button`
   }
 `;
 
-export const ProductButtonLink = styled.a`
-  color: #fff;
-  text-decoration: none;
-  cursor: pointer;
-`;

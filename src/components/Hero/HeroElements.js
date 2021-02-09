@@ -2,7 +2,7 @@ import styled from "styled-components";
 import ImgBg from "../../images/mieacehh.jpg";
 
 export const HeroContainer = styled.div`
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
     url(${ImgBg});
   height: 100vh;
   background-position: center;
@@ -50,7 +50,7 @@ export const HeroBtn = styled.button`
   padding: 1rem 4rem;
   border: none;
   border-radius: 3px;
-  background: #f50029;
+  background: #e31837;
   color: #fff;
   transition: 0.2s ease-out;
   &:hover {

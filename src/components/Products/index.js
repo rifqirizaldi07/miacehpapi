@@ -9,7 +9,6 @@ import {
   ProductTitle,
   ProductWrapper,
   ProductButton,
-  ProductButtonLink,
   ProductImg1,
 } from "./ProductsElement";
 
@@ -27,10 +26,8 @@ function Products({ heading, data }) {
               <ProductInfo>
                 <ProductTitle>{product.name}</ProductTitle>
                 <ProductPrice>{product.price}</ProductPrice>
-                <ProductButton>
-                  <ProductButtonLink href="https://gofood.link/u/gxB1b">
+                <ProductButton href="https://gofood.link/u/gxB1b">
                     {product.button}
-                  </ProductButtonLink>
                 </ProductButton>
               </ProductInfo>
             </ProductCard>
