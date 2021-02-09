@@ -7,7 +7,7 @@ export const SidebarContainer = styled.aside`
   z-index: 999;
   width: 350px;
   height: 100%;
-  background: #f5a045;
+  background: #ffc500;
   display: grid;
   align-items: center;
   top: 0;
@@ -65,7 +65,7 @@ export const SideBtnWrap = styled.div`
 `;
 
 export const SidebarRoute = styled.a`
-  background: #e31837;
+  background: #f50029;
   white-space: nowrap;
   padding: 16px 64px;
   color: #fff;
