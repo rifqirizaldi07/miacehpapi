@@ -1,5 +1,5 @@
 import product1 from "../../images/mieacehtelur.jpeg";
-import product2 from "../../images/mieacehudang.jpg";
+import product2 from "../../images/miekocok.jpg";
 import product3 from "../../images/mieacehdaging.jpg";
 import sweet1 from "../../images/kopi.jpg";
 import sweet2 from "../../images/capucinoo.jpg";
@@ -7,17 +7,17 @@ import sweet3 from "../../images/tehtarik.jpg";
 
 export const productData = [
   {
-    img: product1,
-    alt: "Mie Aceh Telur",
-    name: "Mie Aceh + Telur",
+    img: product2,
+    alt: "Mie Kocok (New)",
+    name: "Mie Kocok (New)",
     price: "Rp 15.000",
     button: 'Order'
   },
   {
-    img: product2,
-    alt: "Mie Aceh Udang",
-    name: "Mie Aceh + Udang",
-    price: "Rp 20.000",
+    img: product1,
+    alt: "Mie Aceh Telur",
+    name: "Mie Aceh + Telur",
+    price: "Rp 15.000",
     button: 'Order'
   },
   {
