@@ -16,10 +16,11 @@ const Sidebar = ({ isOpen, toggle }) => {
         <CloseIcon />
       </Icon>
       <SidebarMenu>
-        <SidebarLink >Mie Kocok Pante Pirak</SidebarLink>
-        <SidebarLink >Mie Aceh + Daging (Pending)</SidebarLink>
-        <SidebarLink >Mie Aceh + Telur (Pending)</SidebarLink>
-        <SidebarLink >Mie Aceh + Ayam (Pending)</SidebarLink>
+        <SidebarLink >Mie Aceh + Daging </SidebarLink>
+        <SidebarLink >Mie Aceh + Telur </SidebarLink>
+        <SidebarLink >Mie Aceh + Ayam </SidebarLink>
+        <SidebarLink >Mie Aceh + Cumi-cumi </SidebarLink>
+        <SidebarLink >Mie Aceh + Udang</SidebarLink>
       </SidebarMenu>
       <SideBtnWrap>
         <SidebarRoute href='https://gofood.link/u/gxB1b'>Order Now</SidebarRoute>
